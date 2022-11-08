@@ -122,6 +122,27 @@ transition: filter 2s;
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: fake-loading 1s linear ;
+}
+
+
+@keyframes fake-loading{
+    0%{
+        transform: rotate(0.25 turn);
+    }
+    25%{
+        transform: rotate(0.50turn);
+    }
+    50%{
+        transform: rotate(0.75turn);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
