@@ -72,10 +72,11 @@ filter: grayscale(1);
 
 .ex-7-img {
 width: 500px;
+transition: filter 2s;
 }
 
 .ex-7-img:hover{
-   
+ filter: grayscale(1) blur(5px);
 }
 
 .ex-8-img{
