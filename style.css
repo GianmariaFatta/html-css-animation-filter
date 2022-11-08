@@ -81,6 +81,13 @@ transition: filter 2s;
 
 .ex-8-img{
     width: 500px;
+    border-radius: 0;
+
+}
+
+.ex-8-img:hover{
+    border-radius: 10px;
+    filter:drop-shadow(10px 10px 20px #000) brightness(200%);
 }
 
 
